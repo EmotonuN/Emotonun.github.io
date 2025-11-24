@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex Rivera | Graphic Designer & Illustrator</title>
+    <title>Nuno Raminhos | Graphic Designer & Illustrator</title>
     
     <!-- NOTE: Using Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -137,6 +137,14 @@
     <section class="h-screen flex items-center relative overflow-hidden">
         
         <!-- Background Carousel -->
+        <!-- 
+             NOTE ON HERO IMAGES:
+             Optimal Size: 1920px x 1080px (Standard Full HD)
+             Format: WebP (preferred) or JPG (high compression)
+             File Size Target: < 200kb per image to ensure fast load times.
+             Aspect Ratio: 16:9 Landscape.
+             Tip: Use darker images or apply a stronger overlay if text legibility is low.
+        -->
         <div id="hero-carousel" class="absolute inset-0 w-full h-full">
             <!-- Slide 1: Abstract Design -->
             <div class="carousel-slide active" style="background-image: url('https://images.unsplash.com/photo-1550684848-fac1c5b4e853?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
@@ -232,6 +240,14 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 
                 <!-- Gallery 1: Infographics -->
+                <!-- 
+                     NOTE ON GALLERY IMAGES:
+                     Optimal Size: 800px x 1000px (for crisp Retina display)
+                     Minimum Size: 400px x 500px
+                     Format: JPG or WebP
+                     Aspect Ratio: 4:5 (Portrait) matches the CSS aspect-[4/5] class.
+                     Subject: Ensure the focal point is central, as edges may crop on different screens.
+                -->
                 <div class="group relative rounded-2xl overflow-hidden aspect-[3/4] md:aspect-[4/5] shadow-xl cursor-pointer fade-in-up bg-brand-dark border border-white/5 hover:border-brand-mid/50 transition-all duration-300">
                     <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                          alt="Infographics Gallery" 
